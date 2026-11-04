@@ -1,12 +1,26 @@
-let btn=document.querySelector("button");
- let img =document.querySelector("img");
+let themeBtn = document.getElementById("btn");
 
-btn.addEventListener('dblclick',() =>{
-   img.setAttribute(
-     "src",
-     "https://images.unsplash.com/photo-1793238223473-186d181b7500?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
-);  
+themeBtn.addEventListener("click", function() {
 
-   
+    document.body.classList.toggle("dark-mode");
+
+    if (document.body.classList.contains("dark-mode")) {
+        themeBtn.textContent = "☀️ Light Mode";
+    }
+    else {
+        themeBtn.textContent = "🌙 Dark Mode";
+    }
+
 });
-console.log("outer");
+
+let skillCards = document.querySelectorAll(".skill-card");
+
+skillCards.forEach(function(card) {
+
+    card.addEventListener("click", function() {
+
+        card.classList.toggle("active");
+
+    });
+
+});

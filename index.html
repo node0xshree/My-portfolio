@@ -13,7 +13,7 @@
     <header>
         <nav>
             <div class="logo">
-                <img width="50" src="./portfolio-logo.jpg" alt="My Portfolio logo ">  `               
+                <img width="50" src="https://images.openai.com/static-rsc-4/7AE6y8svnlNOcBrfhe6n4mWjc15Cf8iQgHijhoQOdRM4mHmIUGc_Hh0q1yTjEJYYOS_ineMe4INI-HQYG3lTJhy3Av5Dj1ZHkbf4z_0bbgUeDA38cGAey9MN5wIHIYVnpX1afHjjm7_be2glxR2Uj97IhCPZg6r1D3fPBIXuZSMjRCCf0g8xU62fYCKwyuh-?purpose=fullsize" alt="My Portfolio logo ">
             </div>
             <div class="links">
                 <a href="#home">Home</a>
@@ -23,7 +23,8 @@
                 <a href="#contact">Contact</a>
             </div>
             <div class="button">
-                <button id="btn">Click</button>
+                <button id="btn">🌙 Dark Mode</button>
+                <!-- <button id="btn">Get in Touch</button> -->
             </div>
         </nav>
     </header>
@@ -37,7 +38,10 @@
                 I'm a second-year B.Tech Information Technology student
                 passionate about creating interesting things and exploring my interests.
             </p>
-
+            <div class="hero-buttons">
+                <a href="#projects">View My Work</a>
+                <a href="#contact">Let's Connect</a>
+            </div>
         </section>
         <section id="about">
             <h2>About Me</h2>
@@ -55,20 +59,65 @@
 
         </section>
         <section id="skills">
-            <h2>Skills</h2>
-            <ul>
 
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Basic JavaScript</li>
-                <li>Problem Solving Skills</li>
-                <li>Communication Skills</li>
-                <li>Sketching</li>
+    <div class="skills-logos" aria-hidden="true">
 
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+             class="logo-html" alt="">
 
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+             class="logo-css" alt="">
 
-            </ul>
-        </section>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+             class="logo-js" alt="">
+
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+             class="logo-cpp" alt="">
+
+    </div>
+
+    <h2>Skills</h2>
+
+    <div class="skills-container">
+
+    <div class="skill-card">
+        <h3>HTML</h3>
+        <p>I use HTML to structure web pages with semantic elements and clean layouts.</p>
+    </div>
+
+    <div class="skill-card">
+        <h3>CSS</h3>
+        <p>I use CSS to design attractive, responsive websites with layouts and styling.</p>
+    </div>
+
+    <div class="skill-card">
+        <h3>Basic JavaScript</h3>
+        <p>I'm learning JavaScript to add interactivity and dynamic behaviour to websites.</p>
+    </div>
+
+    <div class="skill-card">
+        <h3>C++</h3>
+        <p>I understand C++ fundamentals and practise programming logic and problem-solving.</p>
+    </div>
+
+    <div class="skill-card">
+        <h3>Problem Solving</h3>
+        <p>I enjoy breaking problems into smaller steps and finding logical solutions.</p>
+    </div>
+
+    <div class="skill-card">
+        <h3>Communication</h3>
+        <p>I enjoy sharing ideas, collaborating and connecting with people.</p>
+    </div>
+
+    <div class="skill-card">
+        <h3>Sketching</h3>
+        <p>I enjoy sketching and exploring my creativity through art.</p>
+    </div>
+
+</div>
+</section>
+
 
         <section id="projects">
             <h2>My Projects</h2>
@@ -81,6 +130,7 @@
             <div class="project-container">
 
                 <div class="project-card">
+                    <img src="./Cartoon.png" alt="Cartoon Network Landing Page">
                     <h3>Cartoon Network Landing Page</h3>
 
                     <p>
@@ -95,24 +145,26 @@
                         Built from scratch using HTML and CSS, with AI guidance.
 
                     </p>
+                    <div class="project-links">
+                        <a href="https://node0xshree.github.io/Cartoon-Network-landing-page/" target="_blank"
+                            rel="noopener noreferrer">
+                            Live Demo ↗
+                        </a>
 
-                    <a href="https://node0xshree.github.io/Cartoon-Network-landing-page/" target="_blank"
-                        rel="noopener noreferrer">
-                        Live Demo ↗
-                    </a>
-
-                    <a href="https://github.com/node0xshree/Cartoon-Network-landing-page.git" target="_blank"
-                        rel="noopener noreferrer">
-                        View Code ↗
-                    </a>
+                        <a href="https://github.com/node0xshree/Cartoon-Network-landing-page.git" target="_blank"
+                            rel="noopener noreferrer">
+                            View Code ↗
+                        </a>
+                    </div>
                 </div>
 
 
                 <div class="project-card">
                     <h3>Birthday Website</h3>
-
+                    <img src="./birthday.png" alt="Birthday Website">
                     <p>
-                        A creative birthday website designed for my birthday, making the special day memorable through
+                        A creative birthday website designed for my birthday, making the special day memorable
+                        through
                         personalized tech using web design.
                     </p>
 
@@ -121,21 +173,24 @@
                     <p><strong>Development:</strong>
                         Developed with AI assistance.
                     </p>
+                    <div class="project-links">
+                        <a href="https://node0xshree.github.io/Birthday-website/?utm_source=chatgpt.com" target="_blank"
+                            rel="noopener noreferrer">
+                            Live Demo ↗
+                        </a>
 
-                    <a href="https://node0xshree.github.io/Birthday-Website/" target="_blank" rel="noopener noreferrer">
-                        Live Demo ↗
-                    </a>
+                        <a href="https://github.com/node0xshree/Birthday-website.git" target="_blank"
+                            rel="noopener noreferrer">
+                            View Code ↗
+                        </a>
+                    </div>
 
-                    <a href="https://github.com/node0xshree/Birthday-website.git" target="_blank"
-                        rel="noopener noreferrer">
-                        View Code ↗
-                    </a>
                 </div>
 
 
                 <div class="project-card">
                     <h3>ShelfSpace</h3>
-
+                    <img src="./SelfSpace.png" alt="ShelfSpace">
                     <p>
                         A simple web-based library management platform
                         to manage shelves, books, loans and reservations.
@@ -148,21 +203,24 @@
                     <p><strong>Development:</strong>
                         Developed with assistance from GitHub Copilot agent.
                     </p>
+                    <div class="project-links">
+                        <a href="https://node0xshree.github.io/SelfSpace/" target="_blank" rel="noopener noreferrer">
+                            Live Demo ↗
+                        </a>
 
-                    <a href="https://node0xshree.github.io/SelfSpace" target="_blank" rel="noopener noreferrer">
-                        Live Demo ↗
-                    </a>
+                        <a href="https://github.com/node0xshree/ShelfSpace.git" target="_blank"
+                            rel="noopener noreferrer">
+                            View Code ↗
+                        </a>
+                    </div>
 
-                    <a href="https://github.com/node0xshree/SelfSpace.git" target="_blank" rel="noopener noreferrer">
-                        View Code ↗
-                    </a>
                 </div>
 
 
 
                 <div class="project-card">
                     <h3>Doc Circle</h3>
-
+                    <img src="./docCircle.png" alt="Doc Circle">
                     <p>
                         A community-driven doctor recommendation platform
                         that helps people find trusted doctors in unfamiliar
@@ -178,13 +236,16 @@
                         Built collaboratively with Claude AI assistance
                         within 5 hours.
                     </p>
+                    <div class="project-links">
+                        <a href="https://doc-circle.vercel.app/" target="_blank" rel="noopener noreferrer">
+                            Live Demo ↗
+                        </a>
+                        <a href="https://github.com/node0xshree/DocCircle.git" target="_blank"
+                            rel="noopener noreferrer">
+                            View Code ↗
+                        </a>
+                    </div>
 
-                    <a href="https://doc-circle.vercel.app/" target="_blank" rel="noopener noreferrer">
-                        Live Demo ↗
-                    </a>
-                    <a href="https://github.com/node0xshree/DocCircle.git" target="_blank" rel="noopener noreferrer">
-                        View Code ↗
-                    </a>
 
                 </div>
 
@@ -193,24 +254,38 @@
             </div>
         </section>
         <section id="contact">
-            <h2>Contact Me</h2>
+            <h2>Let's Connect</h2>
             <p>
                 I'm always open to new opportunities and collaborations. If you have a project in mind or just want to
                 say hello, feel free to reach out or connect with me!
             </p>
 
-            <a href="https://github.com/node0xshree" target="_blank" rel="noopener noreferrer">GitHub</a>
-            <a href="https://www.linkedin.com/in/suhani-gupta-56b097380?" target="_blank"
-                rel="noopener noreferrer">LinkedIn</a>
-            <a href="https://x.com/ShreeNode" target="_blank" rel="noopener noreferrer">X</a>
-        </section>
+             
+
+    <div class="social-links">
+
+        <a href="mailto:your-email@gmail.com" class="email-btn">
+        Send Me an Email ↗
+    </a>
+
+        <a href="https://github.com/node0xshree" target="_blank"
+            rel="noopener noreferrer">GitHub ↗</a>
+
+        <a href="https://www.linkedin.com/in/suhani-gupta-56b097380"
+            target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+
+        <a href="https://x.com/ShreeNode" target="_blank"
+            rel="noopener noreferrer">X ↗</a>
+    </div>
+</section>
     </main>
     <footer>
-        <p>Designed and built by Suhani</p>
+        <p>~Designed and built by <i>Suhani Gupta</i></p>
 
-        <p>© 2026 All rights reserved | Always learning, always building.</p>
+        <p>© 2026 All rights reserved </p>
+        <p>Always learning, always building.</p>
 
-        <p>This portfolio is a work in progress. More updates coming soon!</p>
+        <p>This is a work in progress. More updates will be added in the future!</p>
 
     </footer>
 
